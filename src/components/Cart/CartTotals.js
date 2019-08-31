@@ -30,7 +30,7 @@ function CartTotals({value, history}) {
                             </span>
                             <strong>$ {cartTotal} </strong>
                         </h5>
-                        <PayPalButton totalAmt={cartTotal} cleatCart={cleatCart}  history={history}/>
+                        {/* <PayPalButton totalAmt={cartTotal} cleatCart={cleatCart}  history={history}/> */}
                     </div>
                 </div>
             </div>
